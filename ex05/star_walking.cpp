@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/18 11:47:03 by marvin            #+#    #+#             */
-/*   Updated: 2024/07/18 11:47:06 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/18 11:51:02 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,5 +62,5 @@ int	main(int argc, char *argv[])
 		else
 			std::printf("Sólo me habéis pedido imprimir los 4 primeros números :p\n");
 	}
-	return 0;
+	return (0);
 }

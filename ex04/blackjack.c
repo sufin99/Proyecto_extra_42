@@ -6,7 +6,7 @@
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/17 17:25:14 by marvin            #+#    #+#             */
-/*   Updated: 2024/07/18 10:18:45 by marvin           ###   ########.fr       */
+/*   Updated: 2024/07/18 11:51:19 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,8 +93,9 @@ int	main(int argc, char *argv[])
 		if (sumcards == 21)
 			printf("Blackjack!\n");
 		else if (sumcards <= 1)
-			return (0);
+			return (-1);
 		else
 			printf("%d\n", sumcards);
 	}
+	return (0);
 }
